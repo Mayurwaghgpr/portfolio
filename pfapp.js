@@ -25,4 +25,19 @@ $(document).ready(function() {
             $('.main-navbar').removeClass("nave-scrol");
         }
     });
+    let sections = $('.section');
+    let navlinks = $('.main-navbar .nav-content .link');
+    $(window).scroll(() => {
+        sections.each((index, el) => {
+            let top = window.scrollY;
+            let offset = $(el).offset().top - 150;
+            let height = $(el).outerHeight();
+            let id = $(el).attr('id');
+
+            if (top >= offset && top < offset + height) {
+                navlinks.removeClass('active');
+                $('.main-navbar .nav-content a[href*=' + id + ']').addClass('active');
+            }
+        });
+    });
 });
