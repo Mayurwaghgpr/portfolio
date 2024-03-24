@@ -264,6 +264,7 @@ h1 {
     background-color: #ffffff;
     gap: 5px;
     border-radius: 10px;
+    overflow: hidden;
 }
 .sk-image span{
     font-size: 1rem;
