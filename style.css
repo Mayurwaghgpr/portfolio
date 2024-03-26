@@ -178,6 +178,7 @@ h1 {
 .About-section h5{
     text-align: center;
 }
+
 .About-container{
     margin-top: 2rem;
     display: grid;
@@ -206,6 +207,7 @@ h1 {
     justify-content: center;
     box-shadow: 2px 9px #222121 ;
     overflow: hidden;
+    transition: 1s;
 }
 .self-content{
     background-color: #fff;
@@ -216,6 +218,8 @@ h1 {
     padding: 10%;
     box-shadow: 2px 9px #222121 ;
     color: #000;
+    transition: 1s;
+    opacity: 0;
     animation: slideLeft 1s ease forwards;
 }
 .self-content .download-cv{
@@ -604,7 +608,7 @@ footer{
         font-size: 3rem;
     }
     .self-content{
-        text-align:justify;
+        text-align:center;
         font-size: 1.8rem;
         border: none;
         /* padding: 2rem; */
