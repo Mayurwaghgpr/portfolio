@@ -196,12 +196,15 @@ h1 {
 } 
 .self-image{
     height: 100%;
+    width: 100%;
     /* overflow: hidden; */
     /* margin-left: 4rem; */
     border-radius: 1rem;
     padding: 2%;
     display: flex;
     justify-content: center;
+    box-shadow: 2px 9px #222121 ;
+    overflow: hidden;
 }
 .self-content{
     background-color: #fff;
