@@ -581,7 +581,7 @@ footer{
 @media(max-width:768px){
     .Top-section{
         grid-template-columns: 1fr;
-        grid-template-rows: .5fr .7fr;
+        grid-template-rows: .5fr 1fr;
         /* height: 10vh; */
     }
     .Text-info h2{
