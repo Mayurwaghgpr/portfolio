@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 // <----------to send form data on my backend Node.js sever--------->
 
-const scriptURL = 'http://192.168.1.4:3001/submit'
+const scriptURL = 'http://localhost:3001/submit'
 const forme = document.forms['submit-to-google-sheet']
 
 forme.addEventListener('submit', e => {
